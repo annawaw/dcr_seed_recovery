@@ -38,7 +38,7 @@ obtained manually with `git` and `dep` (create directories as needed):
 git clone https://github.com/annawaw/dcr_seed_recovery $GOPATH/src/github.com/annawaw/dcr_seed_recovery
 cd $GOPATH/src/github.com/annawaw/dcr_seed_recovery
 dep ensure
-go install . ./cmd/...
+go build
 ```
 
 ## Examples
