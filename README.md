@@ -49,7 +49,7 @@ go build
 ```
 
 
-#### Usage ####
+## Usage ##
 ```
 $ ./dcr_seed_recovery --help
 Usage of ./dcr_seed_recovery:
@@ -69,7 +69,7 @@ Usage of ./dcr_seed_recovery:
 
 ## Examples
 
-** One invalid word **
+#### One invalid word
 ```
 $ ./dcr_seed_recovery -backupSeed  "crusade graduate swelter maritime brickyard Atlantic slingshot aggregate brickyard handiwork spellbind unicorn select yesteryear sugar Chicago Mohawk belowground bluebird adviser tumor torpedo bison headwaters deckhand Jamaica sawdust yesteryear chatter article tapeworm unicorn tapeworm" -addr DsaAWrhMCr4ASMSifnMAbR99LigfRUg18uG
          7782 / 8448 [=======================================================================>------]  92 %
@@ -77,7 +77,7 @@ Found wallet mnemonic:
 crusade graduate swelter maritime brickyard Atlantic slingshot aggregate brickyard handiwork spellbind unicorn select yesteryear sugar Chicago Mohawk belowground bluebird adviser tumor torpedo bison headwaters deckhand Jamaica sawdust yesteryear chatter article framework unicorn tapeworm
 ```
 
-** Two invalid words **
+#### Two invalid words
 ```
 $ ././dcr_seed_recovery -backupSeed  "crusade graduate swelter maritime brickyard Atlantic slingshot aggregate brickyard handiwork spellbind unicorn select yesteryear sugar Chicago Mohawk belowground bluebird adviser tumor torpedo bison headwaters deckhand Jamaica sawdust yesteryear tapeworm article tapeworm unicorn tapeworm" -addr DsaAWrhMCr4ASMSifnMAbR99LigfRUg18uG -depth 2
  33997383 / 34603008 [============================================================================>-]  98 %
