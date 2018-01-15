@@ -43,11 +43,10 @@ go build
 
 ## Examples
 
-** Single invalid work
+** One invalid word **
 ```
-$ ./dcr_seed_recovery -backupSeed  "crusade graduate swelter maritime brickyard Atlantic slingshot aggregate brickyard handiwork spellbind unicorn select yesteryear sugar Chicago Mohawk belowground bluebird adviser tumor torpedo bison headwaters deckhand Jamaica sawdust yesteryear chatter article *tapeworm* unicorn tapeworm" -addr DsaAWrhMCr4ASMSifnMAbR99LigfRUg18uG
+$ ./dcr_seed_recovery -backupSeed  "crusade graduate swelter maritime brickyard Atlantic slingshot aggregate brickyard handiwork spellbind unicorn select yesteryear sugar Chicago Mohawk belowground bluebird adviser tumor torpedo bison headwaters deckhand Jamaica sawdust yesteryear chatter article tapeworm unicorn tapeworm" -addr DsaAWrhMCr4ASMSifnMAbR99LigfRUg18uG
          7782 / 8448 [=======================================================================>------]  92 %
 Found wallet mnemonic:
-crusade graduate swelter maritime brickyard Atlantic slingshot aggregate brickyard handiwork spellbind unicorn select yesteryear sugar Chicago Mohawk belowground bluebird adviser tumor torpedo bison headwaters deckhand Jamaica sawdust yesteryear chatter article *framework* unicorn tapeworm
+crusade graduate swelter maritime brickyard Atlantic slingshot aggregate brickyard handiwork spellbind unicorn select yesteryear sugar Chicago Mohawk belowground bluebird adviser tumor torpedo bison headwaters deckhand Jamaica sawdust yesteryear chatter article framework unicorn tapeworm
 ```
-
