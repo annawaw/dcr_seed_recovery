@@ -38,6 +38,16 @@ obtained manually with `git` and `dep` (create directories as needed):
 git clone https://github.com/annawaw/dcr_seed_recovery $GOPATH/src/github.com/annawaw/dcr_seed_recovery
 cd $GOPATH/src/github.com/annawaw/dcr_seed_recovery
 dep ensure
-go install . ./cmd/...
+go build
+```
+
+## Examples
+
+** Single invalid work
+```
+$ ./dcr_seed_recovery -backupSeed  "crusade graduate swelter maritime brickyard Atlantic slingshot aggregate brickyard handiwork spellbind unicorn select yesteryear sugar Chicago Mohawk belowground bluebird adviser tumor torpedo bison headwaters deckhand Jamaica sawdust yesteryear chatter article *tapeworm* unicorn tapeworm" -addr DsaAWrhMCr4ASMSifnMAbR99LigfRUg18uG
+         7782 / 8448 [=======================================================================>------]  92 %
+Found wallet mnemonic:
+crusade graduate swelter maritime brickyard Atlantic slingshot aggregate brickyard handiwork spellbind unicorn select yesteryear sugar Chicago Mohawk belowground bluebird adviser tumor torpedo bison headwaters deckhand Jamaica sawdust yesteryear chatter article *framework* unicorn tapeworm
 ```
 
