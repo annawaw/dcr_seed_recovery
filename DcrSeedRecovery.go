@@ -25,7 +25,7 @@ func main() {
 	backupSeedPtr := flag.String("backupSeed", "", "backup seed to recover/fix (required)")
 	addrPtr := flag.String("addr", "", "a public address that belongs to the wallet (required)")
 	depthPtr := flag.Int("depth", 1, "max number of invalid words, recommended <=2 (optional)")
-	addrLimitPtr := flag.Int("addrLimit", 128, "max number addresses in a wallet to check (optional)")
+	addrLimitPtr := flag.Int("addrLimit", 128, "max number of addresses in a wallet to check (optional)")
 	accountLimitPtr := flag.Int("accountLimit", 1, "max number of wallet accounts to check (optional)")
 	allowLegacyPtr := flag.Bool("allowLegacy", false, "allow legacy coin type (optional)")
 
